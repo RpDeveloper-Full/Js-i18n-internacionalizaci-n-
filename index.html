@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ejemplo i18n</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 data-i18n="title">Bienvenido</h1>
+    <nav>
+      <ul>
+        <li><a href="#" data-i18n="home">Inicio</a></li>
+        <li><a href="#" data-i18n="about">Acerca de</a></li>
+        <li><a href="#" data-i18n="contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <select id="lang-switcher" aria-label="Seleccionar idioma">
+      <option value="es" selected>Español</option>
+      <option value="en">English</option>
+    </select>
+  </header>
+
+  <main>
+    <p data-i18n="description">
+      Esta es una página de ejemplo con soporte multilenguaje.
+    </p>
+  </main>
+
+  <footer>
+    <p data-i18n="footer">Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
